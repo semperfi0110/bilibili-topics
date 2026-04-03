@@ -1,0 +1,33 @@
+name: Daily Topic Generation
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # 每天 10:00 UTC = 18:00 北京时间
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Generate daily topics
+        run: |
+          python .claude/skills/topic-generator/generator.py
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add history/
+          git diff --staged --quiet || git commit -m "Update: $(date +%Y-%m-%d)"
+          git push

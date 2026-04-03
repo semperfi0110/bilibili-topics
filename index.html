@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B站美食创作灵感</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --primary: #FB7299;
+      --primary-dark: #E85A82;
+      --secondary: #FFA500;
+      --bg-dark: #1a1a2e;
+      --bg-card: #16213e;
+      --text-light: #eaeaea;
+      --text-muted: #a0a0a0;
+    }
+
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: var(--text-light);
+    }
+
+    h1, h2, h3 {
+      font-family: 'Noto Serif SC', serif;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--primary);
+      box-shadow: 0 8px 32px rgba(251, 118, 153, 0.2);
+    }
+
+    .tier-head { border-left: 4px solid #FFD700; }
+    .tier-mid { border-left: 4px solid #C0C0C0; }
+    .tier-tail { border-left: 4px solid #CD7F32; }
+
+    .tier-badge-head { background: linear-gradient(135deg, #FFD700, #FFA500); }
+    .tier-badge-mid { background: linear-gradient(135deg, #C0C0C0, #A0A0A0); }
+    .tier-badge-tail { background: linear-gradient(135deg, #CD7F32, #8B4513); }
+
+    .content-type {
+      background: rgba(251, 118, 153, 0.2);
+      border: 1px solid var(--primary);
+      color: var(--primary);
+    }
+
+    .reference-link {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.2s ease;
+    }
+
+    .reference-link:hover {
+      background: rgba(251, 118, 153, 0.1);
+      border-color: var(--primary);
+    }
+
+    .date-picker {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: var(--text-light);
+      border-radius: 8px;
+      padding: 8px 16px;
+    }
+
+    .date-picker:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .loading {
+      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: .5; }
+    }
+
+    .fade-in {
+      animation: fadeIn 0.5s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body class="p-4 md:p-8">
+  <!-- Header -->
+  <header class="max-w-6xl mx-auto mb-8">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold mb-2">
+          <span style="color: var(--primary)">B站</span> 美食创作灵感
+        </h1>
+        <p class="text-gray-400">每日为不同层级UP主推送创作选题参考</p>
+      </div>
+      <div class="flex items-center gap-4">
+        <label class="text-gray-400 text-sm">选择日期:</label>
+        <input type="date" id="datePicker" class="date-picker">
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-6xl mx-auto" id="mainContent">
+    <!-- Loading State -->
+    <div id="loadingState" class="empty-state">
+      <div class="loading text-2xl mb-4">加载中...</div>
+      <p>正在获取今日创作灵感</p>
+    </div>
+
+    <!-- Content State -->
+    <div id="contentState" class="hidden">
+      <!-- Date Header -->
+      <div class="text-center mb-8">
+        <p class="text-gray-400">以下是 <span id="currentDate" class="text-white font-semibold"></span> 的创作灵感</p>
+      </div>
+
+      <!-- Inspirations Container -->
+      <div id="inspirationsContainer" class="space-y-8">
+        <!-- Dynamically filled -->
+      </div>
+    </div>
+
+    <!-- Error State -->
+    <div id="errorState" class="hidden empty-state">
+      <div class="text-4xl mb-4">😢</div>
+      <p class="text-xl mb-2">加载失败</p>
+      <p id="errorMessage" class="text-gray-400"></p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="max-w-6xl mx-auto mt-12 py-6 text-center text-gray-500 text-sm border-t border-gray-800">
+    <p>数据来源：B站真实搜索 | 每日10:00自动更新</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
