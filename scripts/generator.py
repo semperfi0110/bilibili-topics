@@ -28,8 +28,8 @@ def _get_bilibili_scraper():
     """获取B站数据抓取器"""
     try:
         import sys
-        sys.path.insert(0, str(Path(__file__).parent / "scraper"))
-        from scraper import BilibiliScraper
+        sys.path.insert(0, str(Path(__file__).parent))
+        from scripts.scraper.scraper import BilibiliScraper
         return BilibiliScraper()
     except Exception as e:
         print(f"[WARNING] 无法加载B站抓取器: {e}")
@@ -234,10 +234,10 @@ def _get_trends_from_keywords(keywords: List[str], limit_per_keyword: int = 3, m
     """
     from pathlib import Path
     import sys
-    sys.path.insert(0, str(Path(__file__).parent / "scraper"))
+    sys.path.insert(0, str(Path(__file__).parent))
 
     try:
-        from scraper import BilibiliScraper
+        from scripts.scraper.scraper import BilibiliScraper
         scraper = BilibiliScraper()
 
         # 使用批量搜索
