@@ -959,10 +959,15 @@ def save_inspirations_to_file(result: Dict, output_dir: str = None) -> str:
     """保存灵感到 JSON 文件"""
     if output_dir is None:
         # 保存到脚本同级的 history 目录
-        output_dir = Path(__file__).parent.parent / "history"
+        script_dir = Path(__file__).parent.resolve()
+        output_dir = script_dir.parent / "history"
+        print(f"[DEBUG] script_dir: {script_dir}")
+        print(f"[DEBUG] output_dir: {output_dir}")
 
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    print(f"[DEBUG] output_dir exists: {output_dir.exists()}")
+    print(f"[DEBUG] output_dir is dir: {output_dir.is_dir()}")
 
     date = result.get("date", datetime.now().strftime("%Y-%m-%d"))
     filepath = output_dir / f"{date}.json"
@@ -970,6 +975,8 @@ def save_inspirations_to_file(result: Dict, output_dir: str = None) -> str:
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
+    print(f"[DEBUG] file exists after write: {filepath.exists()}")
+    print(f"[DEBUG] file size: {filepath.stat().st_size if filepath.exists() else 0}")
     print(f"[INFO] 已保存到 {filepath}")
     return str(filepath)
 
