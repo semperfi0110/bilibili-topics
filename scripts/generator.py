@@ -28,7 +28,7 @@ def _get_bilibili_scraper():
     """获取B站数据抓取器"""
     try:
         import sys
-        sys.path.insert(0, str(Path(__file__).parent / "bilibili-trend-scraper"))
+        sys.path.insert(0, str(Path(__file__).parent / "scraper"))
         from scraper import BilibiliScraper
         return BilibiliScraper()
     except Exception as e:
@@ -234,7 +234,7 @@ def _get_trends_from_keywords(keywords: List[str], limit_per_keyword: int = 3, m
     """
     from pathlib import Path
     import sys
-    sys.path.insert(0, str(Path(__file__).parent / "bilibili-trend-scraper"))
+    sys.path.insert(0, str(Path(__file__).parent / "scraper"))
 
     try:
         from scraper import BilibiliScraper
