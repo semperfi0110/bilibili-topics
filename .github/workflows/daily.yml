@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate daily topics
         run: |
-          python .claude/skills/topic-generator/generator.py
+          cd scripts && python generator.py
 
       - name: Commit and push
         run: |
