@@ -29,10 +29,17 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git config --local push.default current
+          echo "=== Debug: listing history directory ==="
+          ls -la history/ || echo "history/ does not exist"
+          echo "=== Debug: git status ==="
+          git status
           git add -A history/
+          echo "=== Debug: after git add ==="
+          git status
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
+            echo "Changes detected, committing..."
             git commit -m "Update: $(date +%Y-%m-%d)"
             git push -u origin main
           fi
