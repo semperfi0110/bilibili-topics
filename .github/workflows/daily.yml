@@ -29,5 +29,4 @@ jobs:
           git config --local user.name "GitHub Action"
           git config --local push.default current
           git add history/
-          git diff --staged --quiet || git commit -m "Update: $(date +%Y-%m-%d)"
-          git push -u origin main
+          git diff --staged --quiet && git commit -m "Update: $(date +%Y-%m-%d)" && git push -u origin main
