@@ -190,8 +190,15 @@ class BilibiliScraper:
 # ==================== 品类特征加载 ====================
 
 def load_category_profile(category: str) -> Optional[Dict]:
-    """加载品类特征"""
-    profile_path = Path.home() / ".claude" / "data" / "category-profiles" / f"{category}.json"
+    """加载品类特征 - 优先从仓库data目录加载，否则从用户目录加载"""
+    # 优先从仓库的 data 目录加载（用于 GitHub Actions）
+    repo_data_dir = Path(__file__).parent.parent / "data"
+    profile_path = repo_data_dir / f"{category}.json"
+
+    if not profile_path.exists():
+        # 回退到用户目录（用于本地运行）
+        profile_path = Path.home() / ".claude" / "data" / "category-profiles" / f"{category}.json"
+
     if profile_path.exists():
         with open(profile_path, "r", encoding="utf-8") as f:
             return json.load(f)
