@@ -6,10 +6,148 @@
 
 import json
 import os
+import time
+import re
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 from pathlib import Path
+from urllib import request, parse
+from urllib.error import URLError, HTTPError
 import random
+
+BILIBILI_API_BASE = "https://api.bilibili.com"
+
+
+class BilibiliScraper:
+    """B站数据抓取器"""
+    def __init__(self):
+        self.headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://www.bilibili.com/",
+            "Accept": "application/json, text/plain, */*",
+            "Origin": "https://www.bilibili.com"
+        }
+
+    def _make_request(self, url: str, params: Dict = None) -> Optional[Dict]:
+        if params:
+            url = f"{url}?{parse.urlencode(params)}"
+        req = request.Request(url, headers=self.headers)
+        try:
+            with request.urlopen(req, timeout=10) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (URLError, HTTPError, json.JSONDecodeError) as e:
+            print(f"请求失败: {e}")
+            return None
+
+    def get_hot_videos(self, category_id: int = 36, limit: int = 20) -> List[Dict]:
+        url = f"{BILIBILI_API_BASE}/x/web-interface/ranking/v2"
+        params = {"rid": category_id, "type": "all"}
+        data = self._make_request(url, params)
+        if data and data.get("code") == 0:
+            videos = data.get("data", {}).get("list", [])
+            return self._format_videos(videos[:limit])
+        return []
+
+    def search_videos(self, keyword: str, limit: int = 10, max_retries: int = 3) -> List[Dict]:
+        url = f"{BILIBILI_API_BASE}/x/web-interface/search/type"
+        for attempt in range(max_retries):
+            params = {"search_type": "video", "keyword": keyword, "page": 1, "page_size": limit}
+            data = self._make_request(url, params)
+            if data and data.get("code") == 0:
+                videos = data.get("data", {}).get("result", [])
+                return [self._format_search_result(v) for v in videos if v.get("bvid")]
+            if data and data.get("code") == -412:
+                time.sleep(1)
+                continue
+            break
+        return []
+
+    def batch_search(self, keywords: List[str], limit_per_keyword: int = 3) -> List[Dict]:
+        all_videos = []
+        seen_bvids = set()
+        print(f"\n[INFO] 开始批量搜索 {len(keywords)} 个关键词...")
+        for i, keyword in enumerate(keywords):
+            print(f"[{i+1}/{len(keywords)}] 搜索: {keyword}", end=" ... ")
+            videos = self.search_videos(keyword, limit=limit_per_keyword)
+            if videos:
+                new_count = 0
+                for video in videos:
+                    if video.get("bvid") not in seen_bvids:
+                        all_videos.append(video)
+                        seen_bvids.add(video.get("bvid"))
+                        new_count += 1
+                print(f"✓ 获取{len(videos)}条 (新增{new_count})")
+            else:
+                print("✗ 无结果")
+            time.sleep(0.3)
+        print(f"[INFO] 批量搜索完成，共获取 {len(all_videos)} 条不重复视频")
+        return all_videos
+
+    def get_food_trending(self, limit: int = 20) -> List[Dict]:
+        videos = self.get_hot_videos(category_id=36, limit=limit)
+        for v in videos:
+            v["url"] = f"https://www.bilibili.com/video/{v['bvid']}"
+        return videos
+
+    def search_food_related(self, keyword: str, limit: int = 10) -> List[Dict]:
+        videos = self.search_videos(keyword, limit)
+        for v in videos:
+            v["url"] = f"https://www.bilibili.com/video/{v['bvid']}"
+        return videos
+
+    def _format_videos(self, videos: List[Dict]) -> List[Dict]:
+        formatted = []
+        for v in videos:
+            stat = v.get("stat", {})
+            formatted.append({
+                "title": v.get("title", "").replace("<em class=\"keyword\">", "").replace("</em>", ""),
+                "bvid": v.get("bvid", ""),
+                "author": v.get("owner", {}).get("name", ""),
+                "views": stat.get("view", 0),
+                "views_str": self._format_number(stat.get("view", 0)),
+                "likes": stat.get("like", 0),
+                "duration": self._format_duration(v.get("duration", 0)),
+                "tags": [tag.get("tag_name", "") for tag in v.get("tags", []) if tag.get("tag_name")][:5],
+                "url": f"https://www.bilibili.com/video/{v.get('bvid', '')}"
+            })
+        return formatted
+
+    def _format_search_result(self, video: Dict) -> Dict:
+        return {
+            "title": video.get("title", "").replace("<em class=\"keyword\">", "").replace("</em>", ""),
+            "bvid": video.get("bvid", ""),
+            "author": video.get("author", ""),
+            "views": self._parse_number(video.get("play", "0")),
+            "views_str": video.get("play", "0"),
+            "likes": self._parse_number(video.get("like", "0")),
+            "duration": video.get("duration", ""),
+            "tags": [],
+            "url": f"https://www.bilibili.com/video/{video.get('bvid', '')}"
+        }
+
+    def _format_duration(self, seconds: int) -> str:
+        minutes = seconds // 60
+        secs = seconds % 60
+        return f"{minutes:02d}:{secs:02d}"
+
+    def _format_number(self, num: int) -> str:
+        if num >= 100000000:
+            return f"{num/100000000:.1f}亿"
+        elif num >= 10000:
+            return f"{num/10000:.1f}万"
+        return str(num)
+
+    def _parse_number(self, num_str: str) -> int:
+        if isinstance(num_str, int):
+            return num_str
+        num_str = str(num_str).replace(",", "")
+        if "万" in num_str:
+            return int(float(num_str.replace("万", "")) * 10000)
+        try:
+            return int(num_str)
+        except:
+            return 0
+
 
 # ==================== 品类特征加载 ====================
 
@@ -26,14 +164,7 @@ def load_category_profile(category: str) -> Optional[Dict]:
 
 def _get_bilibili_scraper():
     """获取B站数据抓取器"""
-    try:
-        import sys
-        sys.path.insert(0, str(Path(__file__).parent))
-        from scripts.scraper.scraper import BilibiliScraper
-        return BilibiliScraper()
-    except Exception as e:
-        print(f"[WARNING] 无法加载B站抓取器: {e}")
-        return None
+    return BilibiliScraper()
 
 
 def _search_bilibili_real(keyword: str, limit: int = 5) -> List[Dict]:
@@ -232,12 +363,7 @@ def _get_trends_from_keywords(keywords: List[str], limit_per_keyword: int = 3, m
     基于关键词主动搜索，使用批量搜索获取更多数据
     min_views: 只保留播放量超过此阈值的视频
     """
-    from pathlib import Path
-    import sys
-    sys.path.insert(0, str(Path(__file__).parent))
-
     try:
-        from scripts.scraper.scraper import BilibiliScraper
         scraper = BilibiliScraper()
 
         # 使用批量搜索
