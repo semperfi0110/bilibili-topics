@@ -21,8 +21,7 @@ jobs:
           pip install requests
 
       - name: Generate daily topics
-        run: |
-          cd scripts && python generator.py
+        run: python scripts/generator.py
 
       - name: Commit and push
         run: |
