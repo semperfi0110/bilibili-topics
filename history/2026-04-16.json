@@ -1,0 +1,523 @@
+{
+  "date": "2026-04-16",
+  "category": "美食",
+  "keywords_used": [
+    "养生",
+    "大排档",
+    "沉浸式",
+    "宿舍美食",
+    "自制",
+    "探店",
+    "探店美食",
+    "食材",
+    "夜宵",
+    "办公室午餐"
+  ],
+  "data_sources": {
+    "bilibili_trending": 2,
+    "search_results": 22
+  },
+  "inspirations": {
+    "head": {
+      "tier_name": "头部up主",
+      "tier_description": "主业为自媒体，全职up主，有自己的视频创作和运营团队。拥有专业设备，剪辑能力强，能够制作特效和创意剪辑镜头，每周更新4-5个视频。已经做了5年美食区up主，有200万粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食制作",
+          "title": "【跨界实验】邀请人类学家+米其林主厨一起探讨【听说麻辣烫很贵？手把手的根源",
+          "target_audience": "25-40岁追求生活品质的城市白领、美食爱好者",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：【听说麻辣烫很贵？手把手教你做家庭版麻辣（播放3269321）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要完整叙事线、精心策划的脚本、专业的拍摄和剪辑",
+          "provided_reason": "你拥有专业团队和设备，适合做周期长、成本高的深度内容",
+          "reference_videos": [
+            {
+              "title": "【听说麻辣烫很贵？手把手教你做家庭版麻辣烫】配料家常，做法简单！厨房小白轻松搞定！",
+              "bvid": "BV1t1421t7Gt",
+              "author": "村驴",
+              "views": 3269321,
+              "views_str": 3269321,
+              "likes": 315634,
+              "duration": "2:11",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1t1421t7Gt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "超详细的烤串教程，从食材准备到腌制、如何烤，缺点就是视频有点长",
+              "bvid": "BV1jf421d7aV",
+              "author": "韭菜花__",
+              "views": 216410,
+              "views_str": 216410,
+              "likes": 5139,
+              "duration": "4:50",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1jf421d7aV",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "开场悬念/话题引入 → 深度制作过程（多角度） → 成品展示 → 背后故事/情感升华 → 总结互动"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食探店",
+          "title": "【隐藏系列】找到城市角落里只有本地人才知道的海底捞36.9外卖火锅菜",
+          "target_audience": "25-35岁喜欢探索、有消费能力的年轻群体",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：海底捞36.9外卖火锅菜，对比39.9呷（播放223228）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要独特视角、深度挖掘店铺故事、优质的拍摄呈现",
+          "provided_reason": "你的团队能支撑外出拍摄和深度内容策划",
+          "reference_videos": [
+            {
+              "title": "海底捞36.9外卖火锅菜，对比39.9呷哺呷哺，有什么区别？",
+              "bvid": "BV1Bp4y1j7Pe",
+              "author": "洋仔开箱a",
+              "views": 223228,
+              "views_str": 223228,
+              "likes": 5790,
+              "duration": "6:29",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1Bp4y1j7Pe",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5113476,
+              "views_str": 5113476,
+              "likes": 120077,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "悬念开场（不到最后不揭晓） → 店铺故事/主理人访谈 → 多菜品展示 → 综合评价 → 实用信息"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食测评",
+          "title": "【数据驱动】基于5000条评论分析猎奇产品体验的真实口碑",
+          "target_audience": "20-35岁注重性价比、愿意为好东西买单的消费者",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：无广！花3200元和网友们票选出的“20（播放804539）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要科学严谨的测评维度、专业的实验设备或引用权威来源",
+          "provided_reason": "你有能力做科学严谨的对比测评，这是中小up难以做到的",
+          "reference_videos": [
+            {
+              "title": "无广！花3200元和网友们票选出的“2025零食封神榜单”！都是没吃过的宝藏！便宜量大！各种口味全覆盖，好吃到上头！",
+              "bvid": "BV1QfHCz7EcF",
+              "author": "林画同学",
+              "views": 804539,
+              "views_str": 804539,
+              "likes": 34917,
+              "duration": "8:37",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QfHCz7EcF",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "25年年度零食红黑榜来了~",
+              "bvid": "BV1D3zTBiEKb",
+              "author": "墩墩测评",
+              "views": 565534,
+              "views_str": 565534,
+              "likes": 11771,
+              "duration": "11:54",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1D3zTBiEKb",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "问题引入/现象解读 → 科学测评维度设计 → 严谨对比实验 → 数据可视化 → 客观结论"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食记录",
+          "title": "【城市记忆】用办公室打口袋决定午饭吃啥串联起一座城市30年的变迁",
+          "target_audience": "18-30岁追求共鸣、喜欢有故事感的观众",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：办公室打口袋决定午饭吃啥（播放399721）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要有感染力的叙事、专业的运镜和剪辑节奏把控",
+          "provided_reason": "你的拍摄剪辑能力可以将普通日常拍出电影感",
+          "reference_videos": [
+            {
+              "title": "办公室打口袋决定午饭吃啥",
+              "bvid": "BV19o4y1f7fd",
+              "author": "我不想吃饭cc",
+              "views": 399721,
+              "views_str": 399721,
+              "likes": 11052,
+              "duration": "2:59",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV19o4y1f7fd",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "一年四季都能吃到的草莓，到底是什么季节的水果？【食录】",
+              "bvid": "BV1Be411z7kU",
+              "author": "赛博食录",
+              "views": 1408518,
+              "views_str": 1408518,
+              "likes": 43127,
+              "duration": "9:54",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1Be411z7kU",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "人物/场景引入 → 完整故事线 → 情感冲突/高光时刻 → 情感共鸣 → 余韵回味"
+        }
+      ]
+    },
+    "mid": {
+      "tier_name": "中腰部up主",
+      "tier_description": "副业为自媒体，非全职up主，独立进行视频创作。会使用专业剪辑软件，有一定剪辑和视频制作能力，每周更新2-3个视频。做了2年左右，有10万粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食制作",
+          "title": "把【听说麻辣烫很贵？手把手做得好吃的几个细节（新手必看）",
+          "target_audience": "上班族、家庭用户、追求实用性内容的观众",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：【听说麻辣烫很贵？手把手教你做家庭版麻辣（播放3269321）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要平衡实用性和个人风格，有一定拍摄剪辑基础",
+          "provided_reason": "你有稳定更新能力，内容实用且有个人特色能稳定吸粉",
+          "reference_videos": [
+            {
+              "title": "【听说麻辣烫很贵？手把手教你做家庭版麻辣烫】配料家常，做法简单！厨房小白轻松搞定！",
+              "bvid": "BV1t1421t7Gt",
+              "author": "村驴",
+              "views": 3269321,
+              "views_str": 3269321,
+              "likes": 315634,
+              "duration": "2:11",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1t1421t7Gt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "超详细的烤串教程，从食材准备到腌制、如何烤，缺点就是视频有点长",
+              "bvid": "BV1jf421d7aV",
+              "author": "韭菜花__",
+              "views": 216410,
+              "views_str": 216410,
+              "likes": 5139,
+              "duration": "4:50",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1jf421d7aV",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "问题引入 → 制作过程 → 成品展示 → 个人心得/技巧 → 互动引导"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食探店",
+          "title": "花了100元实测海底捞36.9外卖火锅菜，告诉你到底值不值",
+          "target_audience": "学生党、上班族、偶尔探店的城市青年",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：海底捞36.9外卖火锅菜，对比39.9呷（播放223228）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要写出有个人观点的评价，简单但有记忆点的剪辑",
+          "provided_reason": "你的更新节奏适合做探店类内容，有一定剪辑能力",
+          "reference_videos": [
+            {
+              "title": "海底捞36.9外卖火锅菜，对比39.9呷哺呷哺，有什么区别？",
+              "bvid": "BV1Bp4y1j7Pe",
+              "author": "洋仔开箱a",
+              "views": 223228,
+              "views_str": 223228,
+              "likes": 5790,
+              "duration": "6:29",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1Bp4y1j7Pe",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5113476,
+              "views_str": 5113476,
+              "likes": 120077,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "到店理由 → 环境展示 → 菜品介绍 → 个人体验 → 总结推荐"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食测评",
+          "title": "真实购买体验：猎奇产品体验到底是不是智商税？",
+          "target_audience": "有购买需求、注重真实评价的消费者",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：无广！花3200元和网友们票选出的“20（播放804539）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要真实客观的评价维度，简单对比表格或实物展示",
+          "provided_reason": "你能做出比新人更专业的测评内容，建立信任感",
+          "reference_videos": [
+            {
+              "title": "无广！花3200元和网友们票选出的“2025零食封神榜单”！都是没吃过的宝藏！便宜量大！各种口味全覆盖，好吃到上头！",
+              "bvid": "BV1QfHCz7EcF",
+              "author": "林画同学",
+              "views": 804539,
+              "views_str": 804539,
+              "likes": 34917,
+              "duration": "8:37",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QfHCz7EcF",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "25年年度零食红黑榜来了~",
+              "bvid": "BV1D3zTBiEKb",
+              "author": "墩墩测评",
+              "views": 565534,
+              "views_str": 565534,
+              "likes": 11771,
+              "duration": "11:54",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1D3zTBiEKb",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "测评背景 → 选品标准 → 直观对比 → 个人结论 → 购买建议"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食记录",
+          "title": "从粉丝N到N+1万，我的办公室打口袋决定午饭吃啥创作复盘",
+          "target_audience": "同龄人、想看真实生活的观众",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：办公室打口袋决定午饭吃啥（播放399721）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要稳定的更新频率，基础的剪辑包装能力",
+          "provided_reason": "你有时间做稳定更新，真实记录容易引发共鸣",
+          "reference_videos": [
+            {
+              "title": "办公室打口袋决定午饭吃啥",
+              "bvid": "BV19o4y1f7fd",
+              "author": "我不想吃饭cc",
+              "views": 399721,
+              "views_str": 399721,
+              "likes": 11052,
+              "duration": "2:59",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV19o4y1f7fd",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "一年四季都能吃到的草莓，到底是什么季节的水果？【食录】",
+              "bvid": "BV1Be411z7kU",
+              "author": "赛博食录",
+              "views": 1408518,
+              "views_str": 1408518,
+              "likes": 43127,
+              "duration": "9:54",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1Be411z7kU",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "场景交代 → 内容展开 → 个人感受 → 简短互动"
+        }
+      ]
+    },
+    "tail": {
+      "tier_name": "长尾/新人up主",
+      "tier_description": "在业余时间创作视频，非全职up主，独立进行视频创作。只能使用简单的剪辑工具，不能做特别复杂的画面或内容。每周更新1-2个视频，不会花太多时间进行视频制作。目前才开始做几个月，有不到1千个粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食制作",
+          "title": "抄作业！【听说麻辣烫很贵？手把手最简单做法，我一次成功",
+          "target_audience": "新手厨艺爱好者、学生党、想学做菜的人",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：【听说麻辣烫很贵？手把手教你做家庭版麻辣（播放3269321）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要会拍、会剪基础，内容真诚即可",
+          "provided_reason": "这类内容门槛低、模板清晰，照着做就能产出",
+          "reference_videos": [
+            {
+              "title": "【听说麻辣烫很贵？手把手教你做家庭版麻辣烫】配料家常，做法简单！厨房小白轻松搞定！",
+              "bvid": "BV1t1421t7Gt",
+              "author": "村驴",
+              "views": 3269321,
+              "views_str": 3269321,
+              "likes": 315634,
+              "duration": "2:11",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1t1421t7Gt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "超详细的烤串教程，从食材准备到腌制、如何烤，缺点就是视频有点长",
+              "bvid": "BV1jf421d7aV",
+              "author": "韭菜花__",
+              "views": 216410,
+              "views_str": 216410,
+              "likes": 5139,
+              "duration": "4:50",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1jf421d7aV",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "成品展示 → 食材准备 → 制作步骤（3-5步） → 成品 → 快速总结"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食探店",
+          "title": "海底捞36.9外卖火锅菜探店｜这个价格这个味道绝了",
+          "target_audience": "第一次探店、不知道怎么拍的萌新",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：海底捞36.9外卖火锅菜，对比39.9呷（播放223228）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要到店拍摄+口播介绍，模板化结构即可",
+          "provided_reason": "只需简单到店拍摄，适合新人练手",
+          "reference_videos": [
+            {
+              "title": "海底捞36.9外卖火锅菜，对比39.9呷哺呷哺，有什么区别？",
+              "bvid": "BV1Bp4y1j7Pe",
+              "author": "洋仔开箱a",
+              "views": 223228,
+              "views_str": 223228,
+              "likes": 5790,
+              "duration": "6:29",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1Bp4y1j7Pe",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5113476,
+              "views_str": 5113476,
+              "likes": 120077,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "到店 → 拍门面 → 拍菜品（3-5道）→ 个人评价 → 结束"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食测评",
+          "title": "猎奇产品体验哪个好？3分钟告诉你答案",
+          "target_audience": "想看简单直接评价的观众",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：无广！花3200元和网友们票选出的“20（播放804539）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要对着镜头说话+展示，简单的剪辑",
+          "provided_reason": "测评类内容观众更看重真实性，不追求专业度",
+          "reference_videos": [
+            {
+              "title": "无广！花3200元和网友们票选出的“2025零食封神榜单”！都是没吃过的宝藏！便宜量大！各种口味全覆盖，好吃到上头！",
+              "bvid": "BV1QfHCz7EcF",
+              "author": "林画同学",
+              "views": 804539,
+              "views_str": 804539,
+              "likes": 34917,
+              "duration": "8:37",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QfHCz7EcF",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "25年年度零食红黑榜来了~",
+              "bvid": "BV1D3zTBiEKb",
+              "author": "墩墩测评",
+              "views": 565534,
+              "views_str": 565534,
+              "likes": 11771,
+              "duration": "11:54",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1D3zTBiEKb",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "介绍产品 → 逐个展示 → 直接评价 → 结论"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食记录",
+          "title": "美食记录｜办公室打口袋决定午饭吃啥（第一期尝试）",
+          "target_audience": "同龄人、喜欢轻松内容的观众",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：办公室打口袋决定午饭吃啥（播放399721）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要固定机位拍摄+简单剪辑",
+          "provided_reason": "记录类最简单，有手机就能拍",
+          "reference_videos": [
+            {
+              "title": "办公室打口袋决定午饭吃啥",
+              "bvid": "BV19o4y1f7fd",
+              "author": "我不想吃饭cc",
+              "views": 399721,
+              "views_str": 399721,
+              "likes": 11052,
+              "duration": "2:59",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV19o4y1f7fd",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "一年四季都能吃到的草莓，到底是什么季节的水果？【食录】",
+              "bvid": "BV1Be411z7kU",
+              "author": "赛博食录",
+              "views": 1408518,
+              "views_str": 1408518,
+              "likes": 43127,
+              "duration": "9:54",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1Be411z7kU",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "开吃 → 吃的过程 → 吃完感受 → 结束"
+        }
+      ]
+    }
+  }
+}
