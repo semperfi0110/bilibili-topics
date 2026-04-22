@@ -1,0 +1,445 @@
+{
+  "date": "2026-04-22",
+  "category": "美食",
+  "keywords_used": [
+    "创意复刻",
+    "家常菜",
+    "快手",
+    "一人食",
+    "烧烤教程",
+    "减脂",
+    "零食测评",
+    "对比评测",
+    "美食vlog",
+    "外卖测评"
+  ],
+  "data_sources": {
+    "bilibili_trending": 5,
+    "search_results": 15
+  },
+  "inspirations": {
+    "head": {
+      "tier_name": "头部up主",
+      "tier_description": "主业为自媒体，全职up主，有自己的视频创作和运营团队。拥有专业设备，剪辑能力强，能够制作特效和创意剪辑镜头，每周更新4-5个视频。已经做了5年美食区up主，有200万粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食制作",
+          "title": "【现象级企划】如果把一道菜从失传到复活，能引发什么讨论？（附历史考证）",
+          "target_audience": "25-40岁追求生活品质的城市白领、美食爱好者",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：在菏泽黄店吃强壮男人必吃的菏泽壮馍，15（播放326795）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要完整叙事线、精心策划的脚本、专业的拍摄和剪辑",
+          "provided_reason": "你拥有专业团队和设备，适合做周期长、成本高的深度内容",
+          "reference_videos": [
+            {
+              "title": "在菏泽黄店吃强壮男人必吃的菏泽壮馍，150块一斤的驴肉，配上大集5毛一个水煎包，性价比直接炸裂！#菏泽美食 #黄店壮馍 #路边摊美味 #山东小吃",
+              "bvid": "BV1mNdmBSE7B",
+              "author": "达哥在上海",
+              "views": 326795,
+              "views_str": 326795,
+              "likes": 15389,
+              "duration": "6:43",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1mNdmBSE7B",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "夏天必做的清爽甜品：柠檬巴巴露亚 Bavarois｜简单食材做出高级感｜免烤箱",
+              "bvid": "BV1LoMQzyEKq",
+              "author": "佳香麻麻",
+              "views": 395647,
+              "views_str": 395647,
+              "likes": 17854,
+              "duration": "5:34",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1LoMQzyEKq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "开场悬念/话题引入 → 深度制作过程（多角度） → 成品展示 → 背后故事/情感升华 → 总结互动"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食探店",
+          "title": "【成本企划】自费测评特厨探店|来淮安物理意义到底值不值这个价（含账单公开）",
+          "target_audience": "25-35岁喜欢探索、有消费能力的年轻群体",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：特厨探店|来淮安物理意义上的&quot;（播放154417）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要独特视角、深度挖掘店铺故事、优质的拍摄呈现",
+          "provided_reason": "你的团队能支撑外出拍摄和深度内容策划",
+          "reference_videos": [
+            {
+              "title": "特厨探店|来淮安物理意义上的&quot;偷&quot;菜—蒲鲜菜馆",
+              "bvid": "BV1KToHB7Est",
+              "author": "特厨隋坡",
+              "views": 154417,
+              "views_str": 154417,
+              "likes": 15835,
+              "duration": "4:22",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1KToHB7Est",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "悬念开场（不到最后不揭晓） → 店铺故事/主理人访谈 → 多菜品展示 → 综合评价 → 实用信息"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食测评",
+          "title": "【数据驱动】基于5000条评论分析猎奇产品体验的真实口碑",
+          "target_audience": "20-35岁注重性价比、愿意为好东西买单的消费者",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：无广！花3200元和网友们票选出的“20（播放807656）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要科学严谨的测评维度、专业的实验设备或引用权威来源",
+          "provided_reason": "你有能力做科学严谨的对比测评，这是中小up难以做到的",
+          "reference_videos": [
+            {
+              "title": "无广！花3200元和网友们票选出的“2025零食封神榜单”！都是没吃过的宝藏！便宜量大！各种口味全覆盖，好吃到上头！",
+              "bvid": "BV1QfHCz7EcF",
+              "author": "林画同学",
+              "views": 807656,
+              "views_str": 807656,
+              "likes": 34978,
+              "duration": "8:37",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QfHCz7EcF",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "25年年度零食红黑榜来了~",
+              "bvid": "BV1D3zTBiEKb",
+              "author": "墩墩测评",
+              "views": 575669,
+              "views_str": 575669,
+              "likes": 12061,
+              "duration": "11:54",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1D3zTBiEKb",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "问题引入/现象解读 → 科学测评维度设计 → 严谨对比实验 → 数据可视化 → 客观结论"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食记录",
+          "title": "【城市记忆】用第一次下厨必看串联起一座城市30年的变迁",
+          "target_audience": "18-30岁追求共鸣、喜欢有故事感的观众",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：第一次下厨必看，刻在中国人基因里的人生家（播放9004140）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要有感染力的叙事、专业的运镜和剪辑节奏把控",
+          "provided_reason": "你的拍摄剪辑能力可以将普通日常拍出电影感",
+          "reference_videos": [
+            {
+              "title": "第一次下厨必看，刻在中国人基因里的人生家常菜，我能吃一辈子",
+              "bvid": "BV1B4421Z7f6",
+              "author": "泡厨房的顾小胖",
+              "views": 9004140,
+              "views_str": 9004140,
+              "likes": 356977,
+              "duration": "10:30",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1B4421Z7f6",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "人物/场景引入 → 完整故事线 → 情感冲突/高光时刻 → 情感共鸣 → 余韵回味"
+        }
+      ]
+    },
+    "mid": {
+      "tier_name": "中腰部up主",
+      "tier_description": "副业为自媒体，非全职up主，独立进行视频创作。会使用专业剪辑软件，有一定剪辑和视频制作能力，每周更新2-3个视频。做了2年左右，有10万粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食制作",
+          "title": "我复刻了'在菏泽黄店吃强壮男人'，总结了一套万能公式，适用多种场景",
+          "target_audience": "上班族、家庭用户、追求实用性内容的观众",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：在菏泽黄店吃强壮男人必吃的菏泽壮馍，15（播放326795）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要平衡实用性和个人风格，有一定拍摄剪辑基础",
+          "provided_reason": "你有稳定更新能力，内容实用且有个人特色能稳定吸粉",
+          "reference_videos": [
+            {
+              "title": "在菏泽黄店吃强壮男人必吃的菏泽壮馍，150块一斤的驴肉，配上大集5毛一个水煎包，性价比直接炸裂！#菏泽美食 #黄店壮馍 #路边摊美味 #山东小吃",
+              "bvid": "BV1mNdmBSE7B",
+              "author": "达哥在上海",
+              "views": 326795,
+              "views_str": 326795,
+              "likes": 15389,
+              "duration": "6:43",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1mNdmBSE7B",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "夏天必做的清爽甜品：柠檬巴巴露亚 Bavarois｜简单食材做出高级感｜免烤箱",
+              "bvid": "BV1LoMQzyEKq",
+              "author": "佳香麻麻",
+              "views": 395647,
+              "views_str": 395647,
+              "likes": 17854,
+              "duration": "5:34",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1LoMQzyEKq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "问题引入 → 制作过程 → 成品展示 → 个人心得/技巧 → 互动引导"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食探店",
+          "title": "花了100元实测特厨探店|来淮安物理意义，告诉你到底值不值",
+          "target_audience": "学生党、上班族、偶尔探店的城市青年",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：特厨探店|来淮安物理意义上的&quot;（播放154417）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要写出有个人观点的评价，简单但有记忆点的剪辑",
+          "provided_reason": "你的更新节奏适合做探店类内容，有一定剪辑能力",
+          "reference_videos": [
+            {
+              "title": "特厨探店|来淮安物理意义上的&quot;偷&quot;菜—蒲鲜菜馆",
+              "bvid": "BV1KToHB7Est",
+              "author": "特厨隋坡",
+              "views": 154417,
+              "views_str": 154417,
+              "likes": 15835,
+              "duration": "4:22",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1KToHB7Est",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "到店理由 → 环境展示 → 菜品介绍 → 个人体验 → 总结推荐"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食测评",
+          "title": "看完不踩坑！猎奇产品体验购买指南",
+          "target_audience": "有购买需求、注重真实评价的消费者",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：无广！花3200元和网友们票选出的“20（播放807656）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要真实客观的评价维度，简单对比表格或实物展示",
+          "provided_reason": "你能做出比新人更专业的测评内容，建立信任感",
+          "reference_videos": [
+            {
+              "title": "无广！花3200元和网友们票选出的“2025零食封神榜单”！都是没吃过的宝藏！便宜量大！各种口味全覆盖，好吃到上头！",
+              "bvid": "BV1QfHCz7EcF",
+              "author": "林画同学",
+              "views": 807656,
+              "views_str": 807656,
+              "likes": 34978,
+              "duration": "8:37",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QfHCz7EcF",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "25年年度零食红黑榜来了~",
+              "bvid": "BV1D3zTBiEKb",
+              "author": "墩墩测评",
+              "views": 575669,
+              "views_str": 575669,
+              "likes": 12061,
+              "duration": "11:54",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1D3zTBiEKb",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "测评背景 → 选品标准 → 直观对比 → 个人结论 → 购买建议"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食记录",
+          "title": "我的第一次下厨必看日常vlog | 第100期真实数据复盘",
+          "target_audience": "同龄人、想看真实生活的观众",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：第一次下厨必看，刻在中国人基因里的人生家（播放9004140）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要稳定的更新频率，基础的剪辑包装能力",
+          "provided_reason": "你有时间做稳定更新，真实记录容易引发共鸣",
+          "reference_videos": [
+            {
+              "title": "第一次下厨必看，刻在中国人基因里的人生家常菜，我能吃一辈子",
+              "bvid": "BV1B4421Z7f6",
+              "author": "泡厨房的顾小胖",
+              "views": 9004140,
+              "views_str": 9004140,
+              "likes": 356977,
+              "duration": "10:30",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1B4421Z7f6",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "场景交代 → 内容展开 → 个人感受 → 简短互动"
+        }
+      ]
+    },
+    "tail": {
+      "tier_name": "长尾/新人up主",
+      "tier_description": "在业余时间创作视频，非全职up主，独立进行视频创作。只能使用简单的剪辑工具，不能做特别复杂的画面或内容。每周更新1-2个视频，不会花太多时间进行视频制作。目前才开始做几个月，有不到1千个粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食制作",
+          "title": "抄作业！在菏泽黄店吃强壮男人必吃最简单做法，我一次成功",
+          "target_audience": "新手厨艺爱好者、学生党、想学做菜的人",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：在菏泽黄店吃强壮男人必吃的菏泽壮馍，15（播放326795）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要会拍、会剪基础，内容真诚即可",
+          "provided_reason": "这类内容门槛低、模板清晰，照着做就能产出",
+          "reference_videos": [
+            {
+              "title": "在菏泽黄店吃强壮男人必吃的菏泽壮馍，150块一斤的驴肉，配上大集5毛一个水煎包，性价比直接炸裂！#菏泽美食 #黄店壮馍 #路边摊美味 #山东小吃",
+              "bvid": "BV1mNdmBSE7B",
+              "author": "达哥在上海",
+              "views": 326795,
+              "views_str": 326795,
+              "likes": 15389,
+              "duration": "6:43",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1mNdmBSE7B",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "夏天必做的清爽甜品：柠檬巴巴露亚 Bavarois｜简单食材做出高级感｜免烤箱",
+              "bvid": "BV1LoMQzyEKq",
+              "author": "佳香麻麻",
+              "views": 395647,
+              "views_str": 395647,
+              "likes": 17854,
+              "duration": "5:34",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1LoMQzyEKq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "成品展示 → 食材准备 → 制作步骤（3-5步） → 成品 → 快速总结"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食探店",
+          "title": "特厨探店|来淮安物理意义推荐｜路过无数次终于进去吃了",
+          "target_audience": "第一次探店、不知道怎么拍的萌新",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：特厨探店|来淮安物理意义上的&quot;（播放154417）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要到店拍摄+口播介绍，模板化结构即可",
+          "provided_reason": "只需简单到店拍摄，适合新人练手",
+          "reference_videos": [
+            {
+              "title": "特厨探店|来淮安物理意义上的&quot;偷&quot;菜—蒲鲜菜馆",
+              "bvid": "BV1KToHB7Est",
+              "author": "特厨隋坡",
+              "views": 154417,
+              "views_str": 154417,
+              "likes": 15835,
+              "duration": "4:22",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1KToHB7Est",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "到店 → 拍门面 → 拍菜品（3-5道）→ 个人评价 → 结束"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食测评",
+          "title": "猎奇产品体验测评｜说实话不踩雷款",
+          "target_audience": "想看简单直接评价的观众",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：无广！花3200元和网友们票选出的“20（播放807656）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要对着镜头说话+展示，简单的剪辑",
+          "provided_reason": "测评类内容观众更看重真实性，不追求专业度",
+          "reference_videos": [
+            {
+              "title": "无广！花3200元和网友们票选出的“2025零食封神榜单”！都是没吃过的宝藏！便宜量大！各种口味全覆盖，好吃到上头！",
+              "bvid": "BV1QfHCz7EcF",
+              "author": "林画同学",
+              "views": 807656,
+              "views_str": 807656,
+              "likes": 34978,
+              "duration": "8:37",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QfHCz7EcF",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "25年年度零食红黑榜来了~",
+              "bvid": "BV1D3zTBiEKb",
+              "author": "墩墩测评",
+              "views": 575669,
+              "views_str": 575669,
+              "likes": 12061,
+              "duration": "11:54",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1D3zTBiEKb",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "介绍产品 → 逐个展示 → 直接评价 → 结论"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食记录",
+          "title": "美食记录｜第一次下厨必看（第一期尝试）",
+          "target_audience": "同龄人、喜欢轻松内容的观众",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：第一次下厨必看，刻在中国人基因里的人生家（播放9004140）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要固定机位拍摄+简单剪辑",
+          "provided_reason": "记录类最简单，有手机就能拍",
+          "reference_videos": [
+            {
+              "title": "第一次下厨必看，刻在中国人基因里的人生家常菜，我能吃一辈子",
+              "bvid": "BV1B4421Z7f6",
+              "author": "泡厨房的顾小胖",
+              "views": 9004140,
+              "views_str": 9004140,
+              "likes": 356977,
+              "duration": "10:30",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1B4421Z7f6",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "开吃 → 吃的过程 → 吃完感受 → 结束"
+        }
+      ]
+    }
+  }
+}
