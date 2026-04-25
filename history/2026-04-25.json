@@ -1,0 +1,523 @@
+{
+  "date": "2026-04-25",
+  "category": "美食",
+  "keywords_used": [
+    "创意复刻",
+    "外卖测评",
+    "评测",
+    "快手",
+    "真实测评",
+    "减脂餐",
+    "测评",
+    "网红店拔草",
+    "下午茶",
+    "对比"
+  ],
+  "data_sources": {
+    "bilibili_trending": 5,
+    "search_results": 14
+  },
+  "inspirations": {
+    "head": {
+      "tier_name": "头部up主",
+      "tier_description": "主业为自媒体，全职up主，有自己的视频创作和运营团队。拥有专业设备，剪辑能力强，能够制作特效和创意剪辑镜头，每周更新4-5个视频。已经做了5年美食区up主，有200万粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食制作",
+          "title": "【系列纪录片】连续30天记录1000%把自己当猫养的烟火气与人情",
+          "target_audience": "25-40岁追求生活品质的城市白领、美食爱好者",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：1000%把自己当猫养！人类首款5元自制（播放551236）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要完整叙事线、精心策划的脚本、专业的拍摄和剪辑",
+          "provided_reason": "你拥有专业团队和设备，适合做周期长、成本高的深度内容",
+          "reference_videos": [
+            {
+              "title": "1000%把自己当猫养！人类首款5元自制全价人粮，终极懒人美食",
+              "bvid": "BV1p6opBCEq7",
+              "author": "茄猫的罐头",
+              "views": 551236,
+              "views_str": 551236,
+              "likes": 35893,
+              "duration": "4:14",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1p6opBCEq7",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "【听说麻辣烫很贵？手把手教你做家庭版麻辣烫】配料家常，做法简单！厨房小白轻松搞定！",
+              "bvid": "BV1t1421t7Gt",
+              "author": "村驴",
+              "views": 3278586,
+              "views_str": 3278586,
+              "likes": 315820,
+              "duration": "2:11",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1t1421t7Gt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "开场悬念/话题引入 → 深度制作过程（多角度） → 成品展示 → 背后故事/情感升华 → 总结互动"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食探店",
+          "title": "【隐藏系列】找到城市角落里只有本地人才知道的人类幼崽沉浸式吃饭",
+          "target_audience": "25-35岁喜欢探索、有消费能力的年轻群体",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：人类幼崽沉浸式吃饭（播放834254）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要独特视角、深度挖掘店铺故事、优质的拍摄呈现",
+          "provided_reason": "你的团队能支撑外出拍摄和深度内容策划",
+          "reference_videos": [
+            {
+              "title": "人类幼崽沉浸式吃饭",
+              "bvid": "BV12dnbzFEvH",
+              "author": "米乐儿原创",
+              "views": 834254,
+              "views_str": 834254,
+              "likes": 36449,
+              "duration": "6:7",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV12dnbzFEvH",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5119227,
+              "views_str": 5119227,
+              "likes": 120219,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "悬念开场（不到最后不揭晓） → 店铺故事/主理人访谈 → 多菜品展示 → 综合评价 → 实用信息"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食测评",
+          "title": "【行业揭秘】卧底6款火锅底料测评工厂，揭示背后的营销逻辑",
+          "target_audience": "20-35岁注重性价比、愿意为好东西买单的消费者",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：6款火锅底料测评，找到一款目前吃过最辣的（播放385392）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要科学严谨的测评维度、专业的实验设备或引用权威来源",
+          "provided_reason": "你有能力做科学严谨的对比测评，这是中小up难以做到的",
+          "reference_videos": [
+            {
+              "title": "6款火锅底料测评，找到一款目前吃过最辣的底料，无广测评",
+              "bvid": "BV13N4y1w78B",
+              "author": "筷子上de小马达",
+              "views": 385392,
+              "views_str": 385392,
+              "likes": 9049,
+              "duration": "9:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV13N4y1w78B",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "真实测评 | 年度速食红黑榜！！",
+              "bvid": "BV1BwfdBvEVv",
+              "author": "扫雷真实测评",
+              "views": 568686,
+              "views_str": 568686,
+              "likes": 64684,
+              "duration": "4:59",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1BwfdBvEVv",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "问题引入/现象解读 → 科学测评维度设计 → 严谨对比实验 → 数据可视化 → 客观结论"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食记录",
+          "title": "【实验性vlog】如果让人类幼崽沉浸式吃饭和明星用同一食材做菜，结果是...",
+          "target_audience": "18-30岁追求共鸣、喜欢有故事感的观众",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：人类幼崽沉浸式吃饭（播放834254）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要有感染力的叙事、专业的运镜和剪辑节奏把控",
+          "provided_reason": "你的拍摄剪辑能力可以将普通日常拍出电影感",
+          "reference_videos": [
+            {
+              "title": "人类幼崽沉浸式吃饭",
+              "bvid": "BV12dnbzFEvH",
+              "author": "米乐儿原创",
+              "views": 834254,
+              "views_str": 834254,
+              "likes": 36449,
+              "duration": "6:7",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV12dnbzFEvH",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5119227,
+              "views_str": 5119227,
+              "likes": 120219,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "人物/场景引入 → 完整故事线 → 情感冲突/高光时刻 → 情感共鸣 → 余韵回味"
+        }
+      ]
+    },
+    "mid": {
+      "tier_name": "中腰部up主",
+      "tier_description": "副业为自媒体，非全职up主，独立进行视频创作。会使用专业剪辑软件，有一定剪辑和视频制作能力，每周更新2-3个视频。做了2年左右，有10万粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食制作",
+          "title": "我复刻了'1000%把自己当猫'，总结了一套万能公式，适用多种场景",
+          "target_audience": "上班族、家庭用户、追求实用性内容的观众",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：1000%把自己当猫养！人类首款5元自制（播放551236）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要平衡实用性和个人风格，有一定拍摄剪辑基础",
+          "provided_reason": "你有稳定更新能力，内容实用且有个人特色能稳定吸粉",
+          "reference_videos": [
+            {
+              "title": "1000%把自己当猫养！人类首款5元自制全价人粮，终极懒人美食",
+              "bvid": "BV1p6opBCEq7",
+              "author": "茄猫的罐头",
+              "views": 551236,
+              "views_str": 551236,
+              "likes": 35893,
+              "duration": "4:14",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1p6opBCEq7",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "【听说麻辣烫很贵？手把手教你做家庭版麻辣烫】配料家常，做法简单！厨房小白轻松搞定！",
+              "bvid": "BV1t1421t7Gt",
+              "author": "村驴",
+              "views": 3278586,
+              "views_str": 3278586,
+              "likes": 315820,
+              "duration": "2:11",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1t1421t7Gt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "问题引入 → 制作过程 → 成品展示 → 个人心得/技巧 → 互动引导"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食探店",
+          "title": "探店避坑指南：这类人类幼崽沉浸式吃饭不值得去",
+          "target_audience": "学生党、上班族、偶尔探店的城市青年",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：人类幼崽沉浸式吃饭（播放834254）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要写出有个人观点的评价，简单但有记忆点的剪辑",
+          "provided_reason": "你的更新节奏适合做探店类内容，有一定剪辑能力",
+          "reference_videos": [
+            {
+              "title": "人类幼崽沉浸式吃饭",
+              "bvid": "BV12dnbzFEvH",
+              "author": "米乐儿原创",
+              "views": 834254,
+              "views_str": 834254,
+              "likes": 36449,
+              "duration": "6:7",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV12dnbzFEvH",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5119227,
+              "views_str": 5119227,
+              "likes": 120219,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "到店理由 → 环境展示 → 菜品介绍 → 个人体验 → 总结推荐"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食测评",
+          "title": "同平台5款6款火锅底料测评横评，我的结论是不踩雷",
+          "target_audience": "有购买需求、注重真实评价的消费者",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：6款火锅底料测评，找到一款目前吃过最辣的（播放385392）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要真实客观的评价维度，简单对比表格或实物展示",
+          "provided_reason": "你能做出比新人更专业的测评内容，建立信任感",
+          "reference_videos": [
+            {
+              "title": "6款火锅底料测评，找到一款目前吃过最辣的底料，无广测评",
+              "bvid": "BV13N4y1w78B",
+              "author": "筷子上de小马达",
+              "views": 385392,
+              "views_str": 385392,
+              "likes": 9049,
+              "duration": "9:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV13N4y1w78B",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "真实测评 | 年度速食红黑榜！！",
+              "bvid": "BV1BwfdBvEVv",
+              "author": "扫雷真实测评",
+              "views": 568686,
+              "views_str": 568686,
+              "likes": 64684,
+              "duration": "4:59",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1BwfdBvEVv",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "测评背景 → 选品标准 → 直观对比 → 个人结论 → 购买建议"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食记录",
+          "title": "从粉丝N到N+1万，我的人类幼崽沉浸式吃饭创作复盘",
+          "target_audience": "同龄人、想看真实生活的观众",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：人类幼崽沉浸式吃饭（播放834254）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要稳定的更新频率，基础的剪辑包装能力",
+          "provided_reason": "你有时间做稳定更新，真实记录容易引发共鸣",
+          "reference_videos": [
+            {
+              "title": "人类幼崽沉浸式吃饭",
+              "bvid": "BV12dnbzFEvH",
+              "author": "米乐儿原创",
+              "views": 834254,
+              "views_str": 834254,
+              "likes": 36449,
+              "duration": "6:7",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV12dnbzFEvH",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5119227,
+              "views_str": 5119227,
+              "likes": 120219,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "场景交代 → 内容展开 → 个人感受 → 简短互动"
+        }
+      ]
+    },
+    "tail": {
+      "tier_name": "长尾/新人up主",
+      "tier_description": "在业余时间创作视频，非全职up主，独立进行视频创作。只能使用简单的剪辑工具，不能做特别复杂的画面或内容。每周更新1-2个视频，不会花太多时间进行视频制作。目前才开始做几个月，有不到1千个粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食制作",
+          "title": "保姆级1000%把自己当猫养教程｜厨房小白也能做",
+          "target_audience": "新手厨艺爱好者、学生党、想学做菜的人",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：1000%把自己当猫养！人类首款5元自制（播放551236）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要会拍、会剪基础，内容真诚即可",
+          "provided_reason": "这类内容门槛低、模板清晰，照着做就能产出",
+          "reference_videos": [
+            {
+              "title": "1000%把自己当猫养！人类首款5元自制全价人粮，终极懒人美食",
+              "bvid": "BV1p6opBCEq7",
+              "author": "茄猫的罐头",
+              "views": 551236,
+              "views_str": 551236,
+              "likes": 35893,
+              "duration": "4:14",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1p6opBCEq7",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "【听说麻辣烫很贵？手把手教你做家庭版麻辣烫】配料家常，做法简单！厨房小白轻松搞定！",
+              "bvid": "BV1t1421t7Gt",
+              "author": "村驴",
+              "views": 3278586,
+              "views_str": 3278586,
+              "likes": 315820,
+              "duration": "2:11",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1t1421t7Gt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "成品展示 → 食材准备 → 制作步骤（3-5步） → 成品 → 快速总结"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食探店",
+          "title": "人类幼崽沉浸式吃饭探店｜这个价格这个味道绝了",
+          "target_audience": "第一次探店、不知道怎么拍的萌新",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：人类幼崽沉浸式吃饭（播放834254）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要到店拍摄+口播介绍，模板化结构即可",
+          "provided_reason": "只需简单到店拍摄，适合新人练手",
+          "reference_videos": [
+            {
+              "title": "人类幼崽沉浸式吃饭",
+              "bvid": "BV12dnbzFEvH",
+              "author": "米乐儿原创",
+              "views": 834254,
+              "views_str": 834254,
+              "likes": 36449,
+              "duration": "6:7",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV12dnbzFEvH",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5119227,
+              "views_str": 5119227,
+              "likes": 120219,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "到店 → 拍门面 → 拍菜品（3-5道）→ 个人评价 → 结束"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食测评",
+          "title": "6款火锅底料测评测评｜说实话不踩雷款",
+          "target_audience": "想看简单直接评价的观众",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：6款火锅底料测评，找到一款目前吃过最辣的（播放385392）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要对着镜头说话+展示，简单的剪辑",
+          "provided_reason": "测评类内容观众更看重真实性，不追求专业度",
+          "reference_videos": [
+            {
+              "title": "6款火锅底料测评，找到一款目前吃过最辣的底料，无广测评",
+              "bvid": "BV13N4y1w78B",
+              "author": "筷子上de小马达",
+              "views": 385392,
+              "views_str": 385392,
+              "likes": 9049,
+              "duration": "9:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV13N4y1w78B",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "真实测评 | 年度速食红黑榜！！",
+              "bvid": "BV1BwfdBvEVv",
+              "author": "扫雷真实测评",
+              "views": 568686,
+              "views_str": 568686,
+              "likes": 64684,
+              "duration": "4:59",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1BwfdBvEVv",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "介绍产品 → 逐个展示 → 直接评价 → 结论"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食记录",
+          "title": "沉浸式人类幼崽沉浸式吃饭｜不用说话也能拍",
+          "target_audience": "同龄人、喜欢轻松内容的观众",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：人类幼崽沉浸式吃饭（播放834254）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要固定机位拍摄+简单剪辑",
+          "provided_reason": "记录类最简单，有手机就能拍",
+          "reference_videos": [
+            {
+              "title": "人类幼崽沉浸式吃饭",
+              "bvid": "BV12dnbzFEvH",
+              "author": "米乐儿原创",
+              "views": 834254,
+              "views_str": 834254,
+              "likes": 36449,
+              "duration": "6:7",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV12dnbzFEvH",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5119227,
+              "views_str": 5119227,
+              "likes": 120219,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "开吃 → 吃的过程 → 吃完感受 → 结束"
+        }
+      ]
+    }
+  }
+}
