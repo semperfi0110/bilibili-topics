@@ -1,0 +1,523 @@
+{
+  "date": "2026-07-16",
+  "category": "美食",
+  "keywords_used": [
+    "探店美食",
+    "网红餐厅",
+    "菜谱",
+    "麻辣烫",
+    "路边摊",
+    "低成本美食",
+    "饮品",
+    "新店打卡",
+    "外卖",
+    "家庭"
+  ],
+  "data_sources": {
+    "bilibili_trending": 2,
+    "search_results": 33
+  },
+  "inspirations": {
+    "head": {
+      "tier_name": "头部up主",
+      "tier_description": "主业为自媒体，全职up主，有自己的视频创作和运营团队。拥有专业设备，剪辑能力强，能够制作特效和创意剪辑镜头，每周更新4-5个视频。已经做了5年美食区up主，有200万粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食制作",
+          "title": "【现象级企划】如果把一道菜从失传到复活，能引发什么讨论？（附历史考证）",
+          "target_audience": "25-40岁追求生活品质的城市白领、美食爱好者",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：【听说麻辣烫很贵？手把手教你做家庭版麻辣（播放3378475）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要完整叙事线、精心策划的脚本、专业的拍摄和剪辑",
+          "provided_reason": "你拥有专业团队和设备，适合做周期长、成本高的深度内容",
+          "reference_videos": [
+            {
+              "title": "【听说麻辣烫很贵？手把手教你做家庭版麻辣烫】配料家常，做法简单！厨房小白轻松搞定！",
+              "bvid": "BV1t1421t7Gt",
+              "author": "村驴",
+              "views": 3378475,
+              "views_str": 3378475,
+              "likes": 318183,
+              "duration": "2:11",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1t1421t7Gt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "一周不重样的10道家常小炒，最后一道好吃到爆",
+              "bvid": "BV1nBfYBkEMw",
+              "author": "下飯美食",
+              "views": 189418,
+              "views_str": 189418,
+              "likes": 3394,
+              "duration": "6:39",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1nBfYBkEMw",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "开场悬念/话题引入 → 深度制作过程（多角度） → 成品展示 → 背后故事/情感升华 → 总结互动"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食探店",
+          "title": "【人文视角】用镜头记录一瓜未平一瓜又起主理人的梦想与坚持",
+          "target_audience": "25-35岁喜欢探索、有消费能力的年轻群体",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：一瓜未平一瓜又起，根本吃不完，百万粉丝美（播放125708）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要独特视角、深度挖掘店铺故事、优质的拍摄呈现",
+          "provided_reason": "你的团队能支撑外出拍摄和深度内容策划",
+          "reference_videos": [
+            {
+              "title": "一瓜未平一瓜又起，根本吃不完，百万粉丝美食博主神奇海挪塌房全过程讲解，对比两人说法#神奇海挪 #吃瓜 #网红 #美食博主 #甜菜火烧",
+              "bvid": "BV132mcY7Ew4",
+              "author": "Christinelahhh66",
+              "views": 125708,
+              "views_str": 125708,
+              "likes": 693,
+              "duration": "3:41",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV132mcY7Ew4",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "美食好吃还是女主人可爱",
+              "bvid": "BV1yn5AziEQx",
+              "author": "张敏敏特穆尔氏",
+              "views": 194068,
+              "views_str": 194068,
+              "likes": 2781,
+              "duration": "2:1",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1yn5AziEQx",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "悬念开场（不到最后不揭晓） → 店铺故事/主理人访谈 → 多菜品展示 → 综合评价 → 实用信息"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食测评",
+          "title": "【数据驱动】基于5000条评论分析女子点单一个自提一个外卖的真实口碑",
+          "target_audience": "20-35岁注重性价比、愿意为好东西买单的消费者",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：女子点单一个自提一个外卖，要求外卖员一并（播放773742）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要科学严谨的测评维度、专业的实验设备或引用权威来源",
+          "provided_reason": "你有能力做科学严谨的对比测评，这是中小up难以做到的",
+          "reference_videos": [
+            {
+              "title": "女子点单一个自提一个外卖，要求外卖员一并派送，外卖员不惯着只送外卖单",
+              "bvid": "BV1R6NX6WESt",
+              "author": "四川观察",
+              "views": 773742,
+              "views_str": 773742,
+              "likes": 17861,
+              "duration": "0:40",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1R6NX6WESt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "【4K】一个词—恐怖！入坑HiFi终于不用再花冤枉钱！兴戈超高性价比三剑客对比评测（EW100，EW200，EA500）",
+              "bvid": "BV1a24y1M7pv",
+              "author": "乱弹发烧友",
+              "views": 111233,
+              "views_str": 111233,
+              "likes": 1351,
+              "duration": "12:2",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1a24y1M7pv",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "问题引入/现象解读 → 科学测评维度设计 → 严谨对比实验 → 数据可视化 → 客观结论"
+        },
+        {
+          "tier": "head",
+          "tier_name": "头部up主",
+          "content_type": "美食记录",
+          "title": "【沉浸式体验】连续7天体验✨探店vlog｜假期去名，用镜头语言讲述",
+          "target_audience": "18-30岁追求共鸣、喜欢有故事感的观众",
+          "why_popular": "深度内容在B站有稳定受众，高制作成本带来差异化，头部up的背书效应强。参考：✨探店vlog｜假期去名创优品会发现什么（播放778451）",
+          "difficulty": "高创意/高制作成本",
+          "制作难点": "需要有感染力的叙事、专业的运镜和剪辑节奏把控",
+          "provided_reason": "你的拍摄剪辑能力可以将普通日常拍出电影感",
+          "reference_videos": [
+            {
+              "title": "✨探店vlog｜假期去名创优品会发现什么宝藏？",
+              "bvid": "BV1Gy4y1s7HU",
+              "author": "奶茶是个小朋友",
+              "views": 778451,
+              "views_str": 778451,
+              "likes": 4893,
+              "duration": "1:14",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1Gy4y1s7HU",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5214195,
+              "views_str": 5214195,
+              "likes": 121880,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "人物/场景引入 → 完整故事线 → 情感冲突/高光时刻 → 情感共鸣 → 余韵回味"
+        }
+      ]
+    },
+    "mid": {
+      "tier_name": "中腰部up主",
+      "tier_description": "副业为自媒体，非全职up主，独立进行视频创作。会使用专业剪辑软件，有一定剪辑和视频制作能力，每周更新2-3个视频。做了2年左右，有10万粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食制作",
+          "title": "我复刻了'【听说麻辣烫很贵？手'，总结了一套万能公式，适用多种场景",
+          "target_audience": "上班族、家庭用户、追求实用性内容的观众",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：【听说麻辣烫很贵？手把手教你做家庭版麻辣（播放3378475）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要平衡实用性和个人风格，有一定拍摄剪辑基础",
+          "provided_reason": "你有稳定更新能力，内容实用且有个人特色能稳定吸粉",
+          "reference_videos": [
+            {
+              "title": "【听说麻辣烫很贵？手把手教你做家庭版麻辣烫】配料家常，做法简单！厨房小白轻松搞定！",
+              "bvid": "BV1t1421t7Gt",
+              "author": "村驴",
+              "views": 3378475,
+              "views_str": 3378475,
+              "likes": 318183,
+              "duration": "2:11",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1t1421t7Gt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "一周不重样的10道家常小炒，最后一道好吃到爆",
+              "bvid": "BV1nBfYBkEMw",
+              "author": "下飯美食",
+              "views": 189418,
+              "views_str": 189418,
+              "likes": 3394,
+              "duration": "6:39",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1nBfYBkEMw",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "问题引入 → 制作过程 → 成品展示 → 个人心得/技巧 → 互动引导"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食探店",
+          "title": "花了100元实测一瓜未平一瓜又起，告诉你到底值不值",
+          "target_audience": "学生党、上班族、偶尔探店的城市青年",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：一瓜未平一瓜又起，根本吃不完，百万粉丝美（播放125708）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要写出有个人观点的评价，简单但有记忆点的剪辑",
+          "provided_reason": "你的更新节奏适合做探店类内容，有一定剪辑能力",
+          "reference_videos": [
+            {
+              "title": "一瓜未平一瓜又起，根本吃不完，百万粉丝美食博主神奇海挪塌房全过程讲解，对比两人说法#神奇海挪 #吃瓜 #网红 #美食博主 #甜菜火烧",
+              "bvid": "BV132mcY7Ew4",
+              "author": "Christinelahhh66",
+              "views": 125708,
+              "views_str": 125708,
+              "likes": 693,
+              "duration": "3:41",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV132mcY7Ew4",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "美食好吃还是女主人可爱",
+              "bvid": "BV1yn5AziEQx",
+              "author": "张敏敏特穆尔氏",
+              "views": 194068,
+              "views_str": 194068,
+              "likes": 2781,
+              "duration": "2:1",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1yn5AziEQx",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "到店理由 → 环境展示 → 菜品介绍 → 个人体验 → 总结推荐"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食测评",
+          "title": "看完不踩坑！女子点单一个自提一个外卖购买指南",
+          "target_audience": "有购买需求、注重真实评价的消费者",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：女子点单一个自提一个外卖，要求外卖员一并（播放773742）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要真实客观的评价维度，简单对比表格或实物展示",
+          "provided_reason": "你能做出比新人更专业的测评内容，建立信任感",
+          "reference_videos": [
+            {
+              "title": "女子点单一个自提一个外卖，要求外卖员一并派送，外卖员不惯着只送外卖单",
+              "bvid": "BV1R6NX6WESt",
+              "author": "四川观察",
+              "views": 773742,
+              "views_str": 773742,
+              "likes": 17861,
+              "duration": "0:40",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1R6NX6WESt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "【4K】一个词—恐怖！入坑HiFi终于不用再花冤枉钱！兴戈超高性价比三剑客对比评测（EW100，EW200，EA500）",
+              "bvid": "BV1a24y1M7pv",
+              "author": "乱弹发烧友",
+              "views": 111233,
+              "views_str": 111233,
+              "likes": 1351,
+              "duration": "12:2",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1a24y1M7pv",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "测评背景 → 选品标准 → 直观对比 → 个人结论 → 购买建议"
+        },
+        {
+          "tier": "mid",
+          "tier_name": "中腰部up主",
+          "content_type": "美食记录",
+          "title": "一个普通人的✨探店vlog｜假期去名记录，没有技巧但很真实",
+          "target_audience": "同龄人、想看真实生活的观众",
+          "why_popular": "实用性强、内容有个人特色的视频在中腰部有天然优势。这类内容涨粉稳定、粉丝粘性高。参考：✨探店vlog｜假期去名创优品会发现什么（播放778451）",
+          "difficulty": "中等创意/中等制作成本",
+          "制作难点": "需要稳定的更新频率，基础的剪辑包装能力",
+          "provided_reason": "你有时间做稳定更新，真实记录容易引发共鸣",
+          "reference_videos": [
+            {
+              "title": "✨探店vlog｜假期去名创优品会发现什么宝藏？",
+              "bvid": "BV1Gy4y1s7HU",
+              "author": "奶茶是个小朋友",
+              "views": 778451,
+              "views_str": 778451,
+              "likes": 4893,
+              "duration": "1:14",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1Gy4y1s7HU",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5214195,
+              "views_str": 5214195,
+              "likes": 121880,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "场景交代 → 内容展开 → 个人感受 → 简短互动"
+        }
+      ]
+    },
+    "tail": {
+      "tier_name": "长尾/新人up主",
+      "tier_description": "在业余时间创作视频，非全职up主，独立进行视频创作。只能使用简单的剪辑工具，不能做特别复杂的画面或内容。每周更新1-2个视频，不会花太多时间进行视频制作。目前才开始做几个月，有不到1千个粉丝。",
+      "count": 4,
+      "inspirations": [
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食制作",
+          "title": "只需3步！有手就会的【听说麻辣烫很贵？手把手",
+          "target_audience": "新手厨艺爱好者、学生党、想学做菜的人",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：【听说麻辣烫很贵？手把手教你做家庭版麻辣（播放3378475）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要会拍、会剪基础，内容真诚即可",
+          "provided_reason": "这类内容门槛低、模板清晰，照着做就能产出",
+          "reference_videos": [
+            {
+              "title": "【听说麻辣烫很贵？手把手教你做家庭版麻辣烫】配料家常，做法简单！厨房小白轻松搞定！",
+              "bvid": "BV1t1421t7Gt",
+              "author": "村驴",
+              "views": 3378475,
+              "views_str": 3378475,
+              "likes": 318183,
+              "duration": "2:11",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1t1421t7Gt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "一周不重样的10道家常小炒，最后一道好吃到爆",
+              "bvid": "BV1nBfYBkEMw",
+              "author": "下飯美食",
+              "views": 189418,
+              "views_str": 189418,
+              "likes": 3394,
+              "duration": "6:39",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1nBfYBkEMw",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "成品展示 → 食材准备 → 制作步骤（3-5步） → 成品 → 快速总结"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食探店",
+          "title": "一瓜未平一瓜又起探店｜第一次拍这种风格，没想到效果不错",
+          "target_audience": "第一次探店、不知道怎么拍的萌新",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：一瓜未平一瓜又起，根本吃不完，百万粉丝美（播放125708）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要到店拍摄+口播介绍，模板化结构即可",
+          "provided_reason": "只需简单到店拍摄，适合新人练手",
+          "reference_videos": [
+            {
+              "title": "一瓜未平一瓜又起，根本吃不完，百万粉丝美食博主神奇海挪塌房全过程讲解，对比两人说法#神奇海挪 #吃瓜 #网红 #美食博主 #甜菜火烧",
+              "bvid": "BV132mcY7Ew4",
+              "author": "Christinelahhh66",
+              "views": 125708,
+              "views_str": 125708,
+              "likes": 693,
+              "duration": "3:41",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV132mcY7Ew4",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "美食好吃还是女主人可爱",
+              "bvid": "BV1yn5AziEQx",
+              "author": "张敏敏特穆尔氏",
+              "views": 194068,
+              "views_str": 194068,
+              "likes": 2781,
+              "duration": "2:1",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1yn5AziEQx",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "到店 → 拍门面 → 拍菜品（3-5道）→ 个人评价 → 结束"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食测评",
+          "title": "女子点单一个自提一个外卖哪个好？3分钟告诉你答案",
+          "target_audience": "想看简单直接评价的观众",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：女子点单一个自提一个外卖，要求外卖员一并（播放773742）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要对着镜头说话+展示，简单的剪辑",
+          "provided_reason": "测评类内容观众更看重真实性，不追求专业度",
+          "reference_videos": [
+            {
+              "title": "女子点单一个自提一个外卖，要求外卖员一并派送，外卖员不惯着只送外卖单",
+              "bvid": "BV1R6NX6WESt",
+              "author": "四川观察",
+              "views": 773742,
+              "views_str": 773742,
+              "likes": 17861,
+              "duration": "0:40",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1R6NX6WESt",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "【4K】一个词—恐怖！入坑HiFi终于不用再花冤枉钱！兴戈超高性价比三剑客对比评测（EW100，EW200，EA500）",
+              "bvid": "BV1a24y1M7pv",
+              "author": "乱弹发烧友",
+              "views": 111233,
+              "views_str": 111233,
+              "likes": 1351,
+              "duration": "12:2",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1a24y1M7pv",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "介绍产品 → 逐个展示 → 直接评价 → 结论"
+        },
+        {
+          "tier": "tail",
+          "tier_name": "长尾/新人up主",
+          "content_type": "美食记录",
+          "title": "一个人吃饭vlog｜固定机位+剪映就够了",
+          "target_audience": "同龄人、喜欢轻松内容的观众",
+          "why_popular": "模板化、可复制的内容对新粉吸引力强，简单直接的风格符合新人节奏。参考：✨探店vlog｜假期去名创优品会发现什么（播放778451）",
+          "difficulty": "低门槛/快速上手/可复制模板",
+          "制作难点": "只需要固定机位拍摄+简单剪辑",
+          "provided_reason": "记录类最简单，有手机就能拍",
+          "reference_videos": [
+            {
+              "title": "✨探店vlog｜假期去名创优品会发现什么宝藏？",
+              "bvid": "BV1Gy4y1s7HU",
+              "author": "奶茶是个小朋友",
+              "views": 778451,
+              "views_str": 778451,
+              "likes": 4893,
+              "duration": "1:14",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1Gy4y1s7HU",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            },
+            {
+              "title": "10分钟 10元内 0厨艺解决一周吃饭难题-拌饭仙人必备",
+              "bvid": "BV1QLqaYkERq",
+              "author": "茄猫的罐头",
+              "views": 5214195,
+              "views_str": 5214195,
+              "likes": 121880,
+              "duration": "3:18",
+              "tags": [],
+              "url": "https://www.bilibili.com/video/BV1QLqaYkERq",
+              "source_keyword": "",
+              "category_relevance": 0.7
+            }
+          ],
+          "content_structure": "开吃 → 吃的过程 → 吃完感受 → 结束"
+        }
+      ]
+    }
+  }
+}
